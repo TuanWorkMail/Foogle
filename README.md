@@ -4,6 +4,8 @@
 - Very simple to be fast
 - TDD
 - Using github or gerrit
+- First prototype very quickly using TypeScript and Node
+- Using Jenkins/TravisCI and SonarQube
 
 ##### High level:
 - Crawler:
