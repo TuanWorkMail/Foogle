@@ -34,3 +34,7 @@
 - TDD
 - Create a barebone API and UI
 	
+##### Prototype:
+- Server
+    - a simple test file that dump JSON from memory as DB
+    - Search API + Test
