@@ -1,3 +1,17 @@
+##### What?
+- Java app that read JSON/CSV file and spit out Solr's XML
+- Java app that call the above that auto scan for new file in folder
+- Spring MVC app that call the above app or Solr to search
+- Angular app that can search, see detail and charting
+
+##### What is the easiest?
+- read a file, parse it then create xml object
+- create xml file in Solr format
+- get list of files from folder
+- watch the folder for changes
+- read list of folders from json file
+_______________________________________________
+
 ##### To dos:
 - A public api or a data source to feed to Solr
 - Similar stack: Solr -> Spring -> Angular
@@ -38,3 +52,8 @@
 - Server
     - a simple test file that dump JSON from memory as DB
     - Search API + Test
+
+##### what to do:
+- Crawler Service Java 8 Core:
+    - read a file with zipped csv file of weather/stock data
+    - send to a Spring app
