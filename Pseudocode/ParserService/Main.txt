@@ -1,0 +1,8 @@
+
+	Main(String[] args) {
+		Watch directories for changes.onchange {
+			get list files changed {
+				call Parser for each file change
+			}
+		}
+	}

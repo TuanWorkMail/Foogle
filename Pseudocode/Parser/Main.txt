@@ -1,0 +1,31 @@
+
+	Main(String[] args) {
+		String tsvInputPath;
+		foreach args {
+			switch {
+				case first args:
+					tsvInputPath = args;
+			}
+		}
+		foreach first 10 lines of tsv file {
+			String[] lineElements = split line by "tab";
+			String author;
+			foreach lineElements {
+				if lineElements[0] == "#Author:" {
+					author = lineElements[1];
+				}
+			}
+		}
+		String filename = get file name
+		String size = get file size
+		String lastModifiedDate = get last modified date
+		write to file with the same name but .json {
+			filename: "sample.tsv",
+			author: "tuan",
+			size: 1000,
+			lastModifiedDate: 19001111,
+			creationDate: 19001111,
+			path: "C:\sample.tsv"
+		}
+		return true;
+	}
